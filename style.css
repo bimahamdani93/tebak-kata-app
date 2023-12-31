@@ -1,0 +1,82 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+hr {
+    size: 2;
+    height: 2px;
+    color: black;
+    background-color: black;
+    width: 95%;
+}
+
+li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 120%;
+}
+
+.contents {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.child-content {
+    border: 1px solid black;
+    border-width: 2px;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
+}
+
+.button {
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 140%
+}
+
+.answer-button {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    font-size: 140%;
+    width: 12%;
+    ;
+}
+
+#total-stats {
+    float: right;
+    width: 40%;
+    height: 50%;
+    background-color: yellow;
+}
+
+#gameboard {
+    float: left;
+    width: 55%;
+    height: 40%;
+    background-color: green;
+}
+
+#session-stats {
+    float: left;
+    margin-top: 1%;
+    width: 55%;
+    background-color: green;
+}
+
+#instructions {
+    float: right;
+    margin-top: 1%;
+    width: 40%;
+    background-color: cyan;
+}
+
+#instructions-list {
+    margin-left: 1%;
+    margin-right: 1%;
+}
